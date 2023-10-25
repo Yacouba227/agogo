@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Slab:wght@500&family=Roboto:wght@700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #40C78B;
+    margin: 0;
+    padding: 0;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(102, 101, 101);
+    height: 35px;
+    align-items: center;
+}
+.button-container button{
+    height: 25px;
+    color: white;
+    border: none;
+    background-color: #40C78B;
+}
+.input-container {
+    margin: 6rem auto;
+}
+.input-container input{
+    height: 15px;
+    width: 20%;
+    padding: 1%;
+    border-radius: 12px;
+    border: none;
+}
+.countdown-container #countdown-display{
+    font-size: 60px;
+    color: white;
+}
+.countdown-container #texte{
+    font-size: 18px;
+    color: rgb(233, 193, 16);
+}
+.countdown-container{
+    margin-top: 12rem;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte à Rebours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-container">
+            <button id="countdown-20s">20 SESC</button>
+            <button id="countdown-cappucino">CAPPUCINO 5</button>
+            <button id="countdown-tea">THE 15</button>
+            <button id="countdown-breakfast">PETIT DEJEUNER 20</button>
+            <button id="countdown-lunch">DEJEUNER 30</button>
+        </div>
+        <div class="input-container">
+            <input type="number" id="user-minutes" placeholder="Entrez le nombre de minutes">
+        </div>
+        <div class="countdown-container">
+            <p style="display: none;"><span id="user-action-display"></span></p>
+            <p><span id="countdown-display">00:00:00</span></p>
+            <p id="texte">Be Back At <span id="end-time-display"> 00:00:00</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
